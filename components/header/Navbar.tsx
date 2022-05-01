@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { BellIcon, SearchIcon } from '@heroicons/react/solid'
 import { useEffect, useState } from 'react'
 import Link from 'next/link'
+import NavLinks from './NavLinks'
 
 function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -32,6 +33,7 @@ function Navbar() {
           className="cursor-pointer object-contain"
         />
 
+        <NavLinks />
 
         <ul className="hidden space-x-4 md:flex">
           <li className="headerLink cursor-default font-semibold text-white hover:text-white">
