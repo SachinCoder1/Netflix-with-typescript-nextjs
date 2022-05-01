@@ -49,7 +49,7 @@ function Navbar() {
         <SearchIcon className="sm hidden h-6 w-6 sm:inline" />
         <p className="hidden lg:inline">Kids</p>
         <BellIcon className="h-6 w-6" />
-        <Link href="/account">
+        <Link href="/account"> 
           <img
             src="https://rb.gy/g1pwyx"
             alt=""
