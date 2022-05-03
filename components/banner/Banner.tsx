@@ -10,6 +10,8 @@ interface Props {
   netflixOriginals: Movie[];
 }
 const Banner = ({ netflixOriginals}:Props) => {
+  
+  // Use state for movie api
     const [movie, setmovie] = useState<Movie | null>(null)
     useEffect(() => {
         setmovie(netflixOriginals[Math.floor(Math.random() * netflixOriginals.length)])
